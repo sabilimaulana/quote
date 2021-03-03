@@ -1,4 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
 .App {
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
+}
+
+body {
+  background-color: salmon;
+}
+
+#quote-box {
+  max-width: 600px;
+  min-height: 150px;
+  background-color: white;
+  color: salmon;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text {
+  font-weight: bold;
+  max-width: 560px;
+  margin: 30px 30px 0px 30px;
+  font-size: 30px;
+}
+
+#author {
+  float: right;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+#new-quote {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  width: 100px;
+  height: 45px;
+  background-color: salmon;
+  color: white;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+#new-quote:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.bottom {
+  height: 120px;
+}
+
+a {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  bottom: 30px;
+  left: 30px;
+  background-color: salmon;
+  border-radius: 10px;
+}
+
+a:hover {
+  opacity: 80%;
+}
+
+#twitter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#credit {
+  position: absolute;
+  width: 400px;
+  bottom: -40px;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
 }
