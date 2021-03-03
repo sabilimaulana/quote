@@ -102,7 +102,7 @@ class App extends React.Component {
           </div>
           <div className="bottom">
             <div id="author">- {this.state.author}</div>
-            <a id="tweet-quote" target="_top" href={linkTweet}>
+            <a id="tweet-quote" target="_blank" href={linkTweet}>
               <FontAwesomeIcon
                 id="twitter"
                 color="white"

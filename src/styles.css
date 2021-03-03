@@ -86,3 +86,19 @@ a:hover {
   transform: translate(-50%);
   color: white;
 }
+
+@media screen and (max-width: 660px) {
+  /* body {
+    background-color: blue;
+  } */
+  #quote-box {
+    width: 90%;
+    min-height: 150px;
+  }
+  #text {
+    font-weight: bold;
+    width: 90%;
+    margin: 30px 30px 20px 30px;
+    font-size: 150%;
+  }
+}
