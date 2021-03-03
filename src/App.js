@@ -91,6 +91,9 @@ class App extends React.Component {
   }
 
   render() {
+    const linkTweet =
+      "https://twitter.com/intent/tweet?hashtags=quotes&related=lala&text=" +
+      this.state.quote;
     return (
       <div className="App">
         <div id="quote-box">
@@ -99,7 +102,7 @@ class App extends React.Component {
           </div>
           <div className="bottom">
             <div id="author">- {this.state.author}</div>
-            <a id="tweet-quote" href="#">
+            <a id="tweet-quote" target="_top" href={linkTweet}>
               <FontAwesomeIcon
                 id="twitter"
                 color="white"
