@@ -49,7 +49,8 @@ body {
 }
 
 #new-quote:hover {
-  opacity: 80%;
+  /* opacity: 80%; */
+  background-color: #fdd0cb;
   cursor: pointer;
 }
 
@@ -68,7 +69,8 @@ a {
 }
 
 a:hover {
-  opacity: 80%;
+  /* opacity: 80%; */
+  background-color: #fdd0cb;
 }
 
 #twitter {
